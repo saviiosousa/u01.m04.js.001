@@ -16,5 +16,11 @@ nome = true + 15;
 console.log(nome, typeof nome)
 nome = 1 + '1';
 console.log(nome, typeof nome)
-
-
+nome= true && true;
+console.log(nome, typeof nome)
+nome= true && false;
+console.log(nome, typeof nome)
+nome= false && true;
+console.log(nome, typeof nome)
+nome= false && false;
+console.log(nome, typeof nome)
